@@ -1,0 +1,21 @@
+{
+	"welcomeFile": "/index.html",
+	"authenticationMethod": "none",
+	"logout": {
+		"logoutEndpoint": "/do/logout"
+	},
+	"routes": [
+    {
+            "source": "^\/help\/(.*)$",
+            "target": "$1",
+            "authenticationType": "xsuaa",
+            "destination": "serv-api",
+            "csrfProtection": false
+    },	{
+		"source": "/(.*)$",
+		"target": "$1",
+		"authenticationType": "xsuaa",
+		"destination": "srv-api",
+		"csrfProtection": false
+	}]
+}

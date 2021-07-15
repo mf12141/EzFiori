@@ -1,0 +1,27 @@
+{
+  "name": "EzFiori-serv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.X"
+  },
+  "scripts": {
+    "start": "node --inspect ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/logging": "^5.0.2",
+    "@sap/xsenv": "^2.1.0",
+    "@sap/xssec": "^2.2.3",
+    "csv-writer": "^1.6.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "json2xls": "^0.1.2",
+    "passport": "^0.4.0",
+    "sap-cf-axios": "latest"
+  }
+}
